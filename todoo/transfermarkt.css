@@ -1,0 +1,22 @@
+table{
+    background-color: rgb(34, 34, 201);
+    font-weight: bold;
+}
+th{
+    color: rgb(141, 154, 226);
+}
+th::first-line{
+    color: white;
+}
+.club:nth-of-type(n){
+    background-color: rgb(28, 8, 116);
+    color: white;
+}
+.club1:nth-of-type(n){
+    background-color: rgb(33, 4, 161);
+    color: white;
+}
+.club2:nth-of-type(2n){
+    background-color: rgba(180, 182, 255, 0.363);
+    color: white;
+}
