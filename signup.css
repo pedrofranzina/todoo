@@ -1,16 +1,27 @@
-h1{
+h1 {
     letter-spacing: -.5px;
 }
-button{
+
+button {
     color: white;
     background-color: rgb(94, 155, 94);
     border-radius: 5px;
     border-color: transparent;
 }
-.link{
+
+.register {
+    color: white;
+    background-color: rgb(94, 155, 94);
+    border-radius: 5px;
+    border-color: transparent;
+    text-decoration: none;
+}
+
+.link {
     color: rgb(94, 155, 94);
     text-decoration: none;
 }
-p .round-button{
+
+p .round-button {
     border-radius: 4px;
 }

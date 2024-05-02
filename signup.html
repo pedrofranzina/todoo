@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup</title>
     <link rel="stylesheet" href="signup.css">
 </head>
+
 <body>
     <h1>Sign in to your account</h1>
     <form action="/tacos">
@@ -13,18 +15,20 @@
         <input id="email" type="email" placeholder="Email address" name="email" required>
         <label for="password"></label>
         <input id="email" type="password" placeholder="Password" name="password" required>
-     
+
+        <p>
+            <input type="radio" id="remember" name="remember" class="round-button">
+            <label for="remember"> Remember me</label>
+            <a class="link" href="/forgotpassword">Forgot password?</a>
+        </p>
+        <button type="submit">Sign In</button>
+        <button><a href="register.com" class="register">Register</a></button>
+    </form>
     <p>
-        <input type="radio" id="remember" name="remember" class="round-button">
-        <label for="remember"> Remember me</label>
-        <a class="link" href="/forgotpassword">Forgot password?</a>
+        Not a member? <a class="link" href="/trial">Start a 14-day free trial</a>
     </p>
-    <button type="submit">Sign In</button>
-</form> 
-<p>
-    Not a member? <a class="link" href="/trial">Start a 14-day free trial</a>
-</p>
-<button onclick="window.close()">Close window</button>
-    
+    <button onclick="window.close()">Close window</button>
+
 </body>
+
 </html>
